@@ -30,6 +30,7 @@ def determine_winner(cities_data):
 def convert_into_int(arr):
     for i in range(len(arr)):
         arr[i] = int(arr[i])
+
     return arr
 
 inputs_nums = input().split(' ')
