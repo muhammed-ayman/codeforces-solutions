@@ -12,6 +12,7 @@ def compute_k(flats):
             if x[i]+2 == x[i+1]:
                 x[i+1] -= 1
                 k -= 1
+
     return k
 
 flats_num = int(input())
