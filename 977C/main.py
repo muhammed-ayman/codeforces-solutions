@@ -2,6 +2,7 @@
 def convert_into_int(arr):
     for i in range(len(arr)):
         arr[i] = int(arr[i])
+
     return arr
 
 def compute_x(arr, k):
@@ -17,6 +18,7 @@ def compute_x(arr, k):
     if k != len(arr):
         if arr[k] == arr[z]:
             return -1
+
     return x
 
 
