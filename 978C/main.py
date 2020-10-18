@@ -23,6 +23,7 @@ def solve_cipher(dorms_num, letters_num, rooms, letters):
 def convert_to_int(arr):
     for i in range(len(arr)):
         arr[i] = int(arr[i])
+
     return arr
 
 
